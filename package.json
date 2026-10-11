@@ -1,0 +1,36 @@
+{
+  "name": "@sefaria/analytics",
+  "version": "0.1.0",
+  "description": "Shared GA4 analytics tracking for Sefaria web apps",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sefaria/Sefaria-Analytics.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sefaria/Sefaria-Analytics/issues"
+  },
+  "keywords": [
+    "sefaria",
+    "analytics",
+    "ga4",
+    "gtag"
+  ],
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "jsdom": "^30.1.2",
+    "vitest": "^4.1.11"
+  }
+}
